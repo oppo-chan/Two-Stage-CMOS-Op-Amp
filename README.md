@@ -66,7 +66,7 @@ Metal2の代わりにゲート端子用のTiN層を利用することで、ア�
 |OUT |n09 |
 
 ### レイアウトの素子配置
-<img src="images/layout_parts.png" alt="layout_parts" title="layout_parts">
+<img src="images/layout_parts.png" alt="op-amp layout_parts" title="op-amp layout_parts">
 
 ## ミニマルファブにかける熱い思い
 - 私は学校で同級生にサーキットデザインについて伝えています。

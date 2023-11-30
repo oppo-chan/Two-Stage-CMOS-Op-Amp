@@ -36,11 +36,11 @@ Metal2の代わりにゲート端子用のTiN層を利用することで、ア�
 |M8 |N |4 |
 
 ### シミュレーション
-- 解析コマンド「.tran 0 5m 1u」
+- 解析コマンド「.tran 0 5m 0 1u」
 - 入力信号「振幅0.1mV、周波数1kHz」
 <img src="images/sim_tran.png" alt="op-amp sim_tran" title="op-amp sim_tran" >
 
-- 解析コマンド「.ac 100 1G 100」
+- 解析コマンド「.ac dec 100 100 1G」
 - 入力信号「振幅1V」
 <img src="images/sim_ac.png" alt="op-amp sim_ac" title="op-amp sim_ac" >
 

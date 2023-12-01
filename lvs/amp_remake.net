@@ -1,0 +1,59 @@
+* C:\Users\michioto\AppData\Local\LTspice\amp_remake.asc
+M1 N001 N001 VDD NC_01 pch l=10u w=40u m=2
+M2 N002 N001 VDD NC_02 pch l=10u w=40u m=2
+M3 N001 INM N003 NC_03 nch l=10u w=10u m=1
+M4 N002 IMP N003 NC_04 nch l=10u w=10u m=1
+M5 OUT N002 VDD NC_05 pch l=10u w=40u m=8
+M6 OUT N004 VSS NC_06 nch l=10u w=10u m=4
+M7 N003 N004 VSS NC_07 nch l=10u w=10u m=2
+M8 N004 N004 VSS NC_08 nch l=10u w=10u m=4
+R1 N004 VDD 36k
+M9 NC_09 NC_10 NC_11 NC_12 pch l=10u w=40u m=1
+M10 NC_13 NC_14 NC_15 NC_16 pch l=10u w=40u m=1
+M11 NC_17 NC_18 NC_19 NC_20 pch l=10u w=40u m=1
+M12 NC_21 NC_22 NC_23 NC_24 pch l=10u w=40u m=1
+M13 NC_25 NC_26 NC_27 NC_28 nch l=10u w=10u m=1
+M14 NC_29 NC_30 NC_31 NC_32 nch l=10u w=10u m=1
+M15 NC_33 NC_34 NC_35 NC_36 nch l=10u w=10u m=1
+M16 NC_37 NC_38 NC_39 NC_40 nch l=10u w=10u m=1
+R11 NC_41 NC_42 3.6k
+R12 NC_43 NC_44 3.6k
+R13 NC_45 NC_46 3.6k
+R14 NC_47 NC_48 3.6k
+R15 NC_49 NC_50 3.6k
+R16 NC_51 NC_52 3.6k
+R17 NC_53 NC_54 3.6k
+R18 NC_55 NC_56 3.6k
+R19 NC_57 NC_58 3.6k
+R20 NC_59 NC_60 3.6k
+R21 NC_61 NC_62 3.6k
+R22 NC_63 NC_64 3.6k
+R23 NC_65 NC_66 3.6k
+R24 NC_67 NC_68 3.6k
+R25 NC_69 NC_70 3.6k
+R26 NC_71 NC_72 3.6k
+R27 NC_73 NC_74 3.6k
+R28 NC_75 NC_76 3.6k
+R29 NC_77 NC_78 3.6k
+R30 NC_79 NC_80 3.6k
+R31 NC_81 NC_82 3.6k
+R32 NC_83 NC_84 3.6k
+C1 N002 OUT 1.656p
+C2 NC_85 NC_86 0.414p
+C3 NC_87 NC_88 0.414p
+C4 NC_89 NC_90 0.414p
+C5 NC_91 NC_92 0.414p
+C6 NC_93 NC_94 0.414p
+C7 NC_95 NC_96 0.414p
+C8 NC_97 NC_98 0.414p
+C9 NC_99 NC_100 0.414p
+C10 NC_101 NC_102 0.414p
+C11 NC_103 NC_104 0.414p
+C12 NC_105 NC_106 0.414p
+C13 NC_107 NC_108 0.414p
+.model NMOS NMOS
+.model PMOS PMOS
+.lib C:\Users\michioto\AppData\Local\LTspice\lib\cmp\standard.mos
+.include "C:\Users\michioto\KLayout\salt\ICPS2023_5\Technology\tech\models\SOI_CMOS"
+.backanno
+.end
